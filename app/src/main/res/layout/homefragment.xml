@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
+    <com.bwie.zhaojunhui20181210.view.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="30sp"
+        android:text="升华红黑哈哈哈哈哈好多次 或捣碎或氨基酸所所所所所所所所所所所所所所所所所"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
